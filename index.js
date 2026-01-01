@@ -10,7 +10,7 @@ dotenv.config();
 
 
 const History = [];
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDyMxTDr-hX9yqfp_5A7WxgJrPKgtZDhS8" });
+const ai = new GoogleGenAI({ apiKey: process.env.AI_KEY });
 
 function sum({num1,num2}){
     return num1+num2;
