@@ -1,4 +1,4 @@
-# Gemini AI Agent with Tool Calling (Day 04)
+# Gemini AI Agent with Tool Calling 
 
 This project is a command-line AI agent built using the Google Gemini API.  
 The agent intelligently decides when to use predefined tools to answer user queries.
@@ -27,40 +27,12 @@ The agent intelligently decides when to use predefined tools to answer user quer
 
 ## Project Structure
 
-DAY04  
+AI-AGENT
 ├── index.js  
 ├── package.json  
 ├── package-lock.json  
 ├── .gitignore  
 └── Day4.svg  
-
----
-
-## Setup Instructions
-
-### 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/day04.git  
-cd day04  
-
----
-
-### 2. Install dependencies
-npm install  
-
----
-
-### 3. Create environment file
-
-Create a file named `.env` in the project root and add:
-
-GEMINI_API_KEY=your_api_key_here  
-
-Do not upload this file to GitHub.
-
----
-
-### 4. Run the project
-node index.js  
 
 ---
 
