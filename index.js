@@ -1,5 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
 import readlineSync from 'readline-sync';
+import dotenv from "dotenv";
+dotenv.config();
+
+
 
 
 
